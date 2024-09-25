@@ -1,0 +1,244 @@
+.trade-winds-regular {
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amarante-regular {
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.prompt-thin {
+  font-family: "Prompt", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.prompt-extralight {
+  font-family: "Prompt", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.prompt-light {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.prompt-regular {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.prompt-medium {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.prompt-semibold {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.prompt-bold {
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.prompt-extrabold {
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.prompt-black {
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.prompt-thin-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.prompt-extralight-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.prompt-light-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.prompt-regular-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.prompt-medium-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.prompt-semibold-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.prompt-bold-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.prompt-extrabold-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.prompt-black-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.amarante-regular {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hover-blue:hover svg {
+  fill: blue;
+}
+.hover-blue svg {
+  transition: fill 0.3s; 
+}
+
+.headingText{
+    -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: black;
+}
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .sail-regular {
+    font-family: "Sail", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .tracking-wide {
+    letter-spacing: 4px; 
+}
+
+.custom-link {
+  color: black; 
+}
+
+.custom-link:hover {
+  color: blue; 
+}
+
+.shadow-custom{
+  box-shadow:  0 4px 6px rgba(0, 255, 0, 0.5);
+}
+.shadow-custom:hover{
+  box-shadow: 0 4px 6px rgba(0, 255, 0, 0.7);;
+}
+
+.sectionOneHeading{
+  font-size: 80px;
+}
+
+
+
+.sectionDivOuterDiv{
+  padding: 50px 0;
+}
+
+
+.sectionThreeFontSize{
+  font-size: 50px;
+}
+.divPosition {
+  position: relative; 
+  overflow: hidden; 
+  
+}
+.sectionThreeHeading{
+  font-size: 60px;
+}
+
+.imgPosition1 {
+  right: -120px;
+  position: relative;
+  top: -50px;
+  width: 400px;
+   
+   
+}
+.imgPosition2 {
+  position:absolute;
+  width: 400px;
+  left: -100px;
+   top: 150px;
+  
+}
+
+.sectionTwoDiv > img {
+  width: 70%;
+}
+
+@media (min-width: 768px) {
+  
+.divPosition {
+  position: relative; 
+  overflow: hidden; 
+  
+}
+.imgPosition1 {
+  position: absolute; 
+  width: 500px;
+   top: -150px; 
+   right: 100px
+}
+.imgPosition2 {
+  width: 600px;
+   top: 100px; 
+   left: -150px;
+   position: absolute;
+}
+.sectionThreeFontSize{
+  font-size: 100px;
+}
+.sectionTwoDiv > img{
+  width: 100%;
+}
+.sectionThreeHeading{
+  font-size: 80px;
+}
+.sectionOneHeading{
+  font-size: 120px;
+}
+}
+
